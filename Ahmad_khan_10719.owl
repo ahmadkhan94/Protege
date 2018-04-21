@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Awards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Away_competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Away_competitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition_stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition_stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competition_name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competitors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Defender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Defender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Division"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Free_kick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Free_kick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goalkeeper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goalkeeper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Header -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Header">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Home_competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Home_competitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Competitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#League">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match_official -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Match_official"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Midfielder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Midfielder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Overhead_kick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Overhead_kick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Penalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Penalty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Goals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Promoted_to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Promoted_to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Relegated_to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Relegated_to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Striker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Striker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#man_of_the_match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#man_of_the_match">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ahmadkhan/ontologies/2018/3/untitled-ontology-3#Awards"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
